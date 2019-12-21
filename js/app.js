@@ -36,8 +36,6 @@ function deg2rad(deg) {
 let url = 'https://zloyleva.github.io/test_geo/data.json';
 // let url = 'https://api.privatbank.ua/p24api/infrastructure?json&atm&address=&city=%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE';
 fetch(url, {
-  // mode: 'no-cors',
-  method: 'get',
   headers: {
     'Content-Type': 'application/json',
 },
