@@ -49,8 +49,6 @@ fetch(url, {
       adr: item.fullAddressUa,
     }));
 
-    debugger;
-
     navigator.geolocation.getCurrentPosition(pos => {
       let lat = pos.coords.latitude;
       let lon = pos.coords.longitude;
